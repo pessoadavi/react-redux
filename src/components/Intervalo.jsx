@@ -4,7 +4,7 @@ import Card from './Card';
 
 const Intervalor = (props) => {
     return (
-        <div className="Intervalo">
+  
             <Card title="Intervalo de Números" red>
                 <span>
                     <strong>Mínimo: </strong>
@@ -15,7 +15,6 @@ const Intervalor = (props) => {
                     <input type="number" value={10} readOnly/>
                 </span>
             </Card>
-        </div>
     );
 }
 
