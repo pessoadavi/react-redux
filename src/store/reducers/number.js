@@ -3,12 +3,12 @@ import {
     CHANGEMAX
 } from '../actions/actionTypes.js'
 
-const initialState = {
+const initialState = {      // isso é um estado (pode ser array, obj, etc...)
     min: 0,
     max: 0
 }
 
-export default function (state = initialState, action) {
+export default function (state = initialState, action) {    // Reducers
 
     switch(action.type){
 

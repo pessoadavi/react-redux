@@ -3,13 +3,12 @@ import {
     CHANGEMAX
 } from './actionTypes'
 
-// Action creators
-export function alterarNumeroMinimo(newNumber){
+export function alterarNumeroMinimo(newNumber){ // Action creator. Função que retorna um obj
 
     return {
-        type: CHANGEMIN,
-        payload: newNumber
-    }
+        type: CHANGEMIN,                        // Isso é
+        payload: newNumber                      // a action. Veja que é um obj devido {}
+    }                                           // payload pode ser um array de obj's [{},{},{}]
 }
 
 export function alterarNumeroMaximo(newNumber){
